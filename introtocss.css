@@ -1,0 +1,29 @@
+
+
+/*#parent{
+    position: relative;
+    height: 250px;
+    width: 250px; 
+    border: 2px dashed black; 
+}*/
+.pos{
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 300px;
+    left: 50px;
+}
+
+/*.discss1{
+    background-color: lightblue;
+    color: whitesmoke;
+    display: inline-block;
+ 
+}
+.discss2{
+    display: block;
+    color: whitesmoke;
+    background-color: pink;
+    display: inline-block;
+
+}*/

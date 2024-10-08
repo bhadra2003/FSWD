@@ -1,0 +1,85 @@
+.parent{
+    height: 1150px;
+    background-color: aquamarine;
+    display:flex;
+    gap:10px;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.child{
+    height: 100px;
+    width: 100px;
+    flex:1;
+    background-color: red;
+    border:1px solid green;
+    
+}
+.demo{
+    background-color: beige;
+}
+.child2{
+    background-color: white;
+    flex:1;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition-delay: 500ms;
+    transition-property: color;
+    transition-timing-function: ease-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: pink;
+    cursor: pointer;
+
+}
+.box{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.ball{
+    height:120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+.ball:hover{
+    animation: moveTheBall 5s ease-in forwards;
+}
+@keyframes moveTheBall {
+    25%{
+        transform: translate(600px,600px);
+    }
+    50%{
+        transform: translate(400%,400%);
+        background-color: aqua;
+    }
+    75%{
+        transform: translate(0,400%);
+        background-color: white;
+        border-radius: 12%;
+    }
+    
+}
+@media only  screen  and (max-width:800px){
+    h2{
+        color:yellow;
+    }
+}
+@media screen and (max_width:400px) {
+        h2{
+            color:red;
+        }
+        
+    }
+    

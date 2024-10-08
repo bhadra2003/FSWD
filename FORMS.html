@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms in HTML</title>
+    </head>
+    <body style="background-image: url(); background-repeat: no-repeat;">
+        <table>
+            <tr>
+                <td><label>Username:</label></td>
+                <td><input type="file" placeholder="Plz enter your username" required value="bhadra"/></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" placeholder="Plz enter your password" required/></td>
+            </tr>
+            <tr>
+                <td><label>DOB: &nbsp &nbsp</label></td>
+                <td>input type="date"/></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="Gender" checked/><label>Male</label>
+                    <input type="radio" name="Gender"/><label>Female</label>
+                    <input type="radio" name="Gender"/><label>Prefer Not to Say</label></td>
+            </tr>
+            <tr>
+                <td><label>Select Courses Your Aware About: </label></td>
+                <td><input type="checkbox" value="c" name="course" /><label>C</label>
+                    <input type="checkbox" value="cpp" name="course" /><label>C++</label>
+                    <input type="checkbox" value="java" name="course" checked disabled/><label>Java</label>
+                    <input type="checkbox" value="py" name="course" /><label>Python</label></td>
+            </tr>
+            <tr>
+                <td> <label>Choose Your Course:</label></td>
+                <td><select>
+                    <option value=""></option>
+                    <option value="web">Web Development</option>
+                    <option value="ds">Data Science</option>
+                    <option value="ml">Machine Learning</option>
+                    <option value="ai">AI</option>
+                    <option value="bd">Big Data</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Submit:</label></td>
+                <td><input type="submit"/></td>
+            </tr>
+            <tr>
+                <td><label>Reset:</label></td>
+                <td><input type="submit"/></td>
+            </tr>
+
+        </table>
+        <br/>
+        <hr/>
+        <form>
+            <label>Username:</label>
+            <input type="text" placeholder="Plz enter your username" required value="bhadra"/>
+            <br/>
+            <br/>
+            <label>Password:</label>
+            <input type="password" placeholder="Plz enter your password" required/>
+            <br/>
+            <br/>
+            <label>DOB: &nbsp &nbsp</label>
+            <input type="date"/>
+            <br/>
+            <br/>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" checked/><label>Male</label>
+            <input type="radio" name="Gender"/><label>Female</label>
+            <input type="radio" name="Gender"/><label>Prefer Not to Say</label>
+            <br/>
+            <br/>
+            <label>Select Courses Your Aware About: </label>
+            <input type="checkbox" value="c" name="course" /><label>C</label>
+            <input type="checkbox" value="cpp" name="course" /><label>C++</label>
+            <input type="checkbox" value="java" name="course" checked disabled/><label>Java</label>
+            <input type="checkbox" value="py" name="course" /><label>Python</label>
+            <br/>
+            <br/>
+            <label>Choose Your Course:</label>
+            <select>
+                <option value=""></option>
+                <option value="web">Web Development</option>
+                <option value="ds">Data Science</option>
+                <option value="ml">Machine Learning</option>
+                <option value="ai">AI</option>
+                <option value="bd">Big Data</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit"/>
+            <input type="reset"/>
+
+        </form>
+    </body>
+</html>
